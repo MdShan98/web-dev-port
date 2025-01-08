@@ -47,6 +47,11 @@
     font-size: 20px;
     border: none;
   }
+  /* main style */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
   .banner{
     display: flex;
     justify-content: space-between;
@@ -70,3 +75,39 @@
   .download{
     margin-right: 20px;
   }
+  .bg-image{
+    background-color: #FFF8F3;
+  }
+  .about-section{
+    /* max-width: 1000px;
+    margin: 0 auto; */
+    max-width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px 120px;
+  }
+  .section-title{
+
+  }
+  .descriotion{
+
+  }
+  .about-des{
+    max-width: 500px;
+    /* padding: 130px 150px; */
+    margin: 0 auto;
+    /* text-align: center;
+    margin-top: 130px; */
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #FFFFFF;
+  }
+   .about-items{
+    display: flex;
+    justify-content: space-around;
+   }
+   .item-des{
+    font-weight: 600;
+    max-height: 250px;
+   }
